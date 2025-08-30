@@ -5,3 +5,5 @@ seaborn==0.13.2
 category-encoders==2.8.1
 scikit-learn==1.7.0
 streamlit==1.46.1
+nltk
+mlflow
