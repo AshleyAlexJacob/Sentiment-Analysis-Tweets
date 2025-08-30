@@ -7,3 +7,5 @@ scikit-learn==1.7.0
 streamlit==1.46.1
 nltk
 mlflow
+torchtext
+torch
