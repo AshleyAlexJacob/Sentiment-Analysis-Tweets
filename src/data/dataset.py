@@ -35,7 +35,7 @@ class TwitterSentimentDataset(Dataset):
         # tokenize the text
         tokens = self.tokenize(text) # [token1, token2, ...]
         # ['unk'] ['pad']
-        indices = [self.vocab.get(token, self.vocab['<unk>']) for token in tokens]
+        indices = [self.vocab.get(token, self.vocab['<UNK>']) for token in tokens]
 
         return torch.tensor(indices, dtype=torch.long), torch.tensor(label, dtype=torch.long)
         

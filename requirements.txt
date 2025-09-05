@@ -9,3 +9,5 @@ nltk
 mlflow
 torchtext
 torch
+mlflow
+dagshub
