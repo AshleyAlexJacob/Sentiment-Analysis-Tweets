@@ -17,7 +17,7 @@ def main():
     _ = mlflow.set_experiment(experiment_name)
 
 
-    NUM_EPOCHS = 100
+    NUM_EPOCHS = 10
     BATCH_SIZE = 32
     LEARNING_RATE = 0.001
 
