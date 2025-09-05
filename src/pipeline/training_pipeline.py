@@ -105,7 +105,7 @@ def main():
             # Save the model and vocab after training
             if val_acc>best_val_acc:
                 best_val_acc = val_acc
-                save_model_and_vocab(model, vocab, 'models/rnn_sentiment_model.pth', 'models/vocab.pkl')
+                save_model_and_vocab(model, vocab, 'artifacts/rnn_sentiment_model.pth', 'artifacts/vocab.pkl')
                 print("Model and vocabulary saved.")
                 print(f"New best validation accuracy: {best_val_acc:.4f}")
             else:
